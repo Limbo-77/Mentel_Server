@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Soul Buffer HKU Server Full-Screen Desktop View</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#4e7e7c",
+                        "primary-dark": "#3a5e5c",
+                        "sage": "#A8C6B9",
+                        "sage-light": "#E8F0EE",
+                        "background": "#F2F4F5",
+                        "surface": "#FFFFFF",
+                        "text-main": "#2D3436",
+                        "text-muted": "#636E72",
+                        "border-light": "#E2E8F0"
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"],
+                        "mono": ["ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace"]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .no-scrollbar::-webkit-scrollbar { display: none; }
+            .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        }
+        .animated-connection {
+            background: linear-gradient(90deg, #e2e8f0 0%, #4e7e7c 50%, #e2e8f0 100%);
+            background-size: 200% 100%;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background font-display antialiased text-text-main min-h-screen overflow-x-hidden">
+<div class="max-w-[1920px] mx-auto min-h-screen flex flex-col">
+<header class="bg-white border-b border-border-light px-8 py-6 shadow-sm">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-2xl fill-1">memory</span>
+</div>
+<h1 class="text-2xl font-extrabold tracking-tight text-slate-900 uppercase">Soul Buffer Cloud Engine</h1>
+</div>
+<div class="flex items-center gap-3 px-4 py-1.5 rounded-full bg-sage-light text-primary-dark border border-sage/30">
+<span class="material-symbols-outlined text-[18px] fill-1">verified_user</span>
+<span class="text-xs font-bold uppercase tracking-widest">Secure Aggregation</span>
+</div>
+</div>
+<p class="text-sm font-medium text-text-muted flex items-center gap-2 ml-14">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                Server Location: <span class="text-slate-900">HKU Testbed Server</span>
+<span class="text-slate-300 mx-1">|</span> 
+                Region: <span class="text-slate-900">HK-ASIA-1</span>
+</p>
+</div>
+</header>
+<main class="flex-1 p-8 grid grid-cols-12 gap-6">
+<div class="col-span-12 lg:col-span-7 flex flex-col gap-6">
+<section class="bg-surface rounded-3xl p-8 shadow-sm border border-border-light flex flex-col">
+<div class="flex items-center justify-between mb-10">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">hub</span>
+<h2 class="text-sm font-black text-slate-800 uppercase tracking-widest">Split Learning Architecture</h2>
+</div>
+<span class="text-xs font-mono text-primary bg-sage-light px-3 py-1 rounded-full font-bold">V.2.0 LIVE STATUS</span>
+</div>
+<div class="flex items-center justify-between gap-12 px-10 relative py-8">
+<div class="relative flex flex-col items-center group">
+<div class="relative w-28 h-28 flex items-center justify-center">
+<div class="absolute translate-x-[-12px] translate-y-[-12px] opacity-20 scale-90">
+<span class="material-symbols-outlined text-slate-400 text-6xl">smartphone</span>
+</div>
+<div class="absolute translate-x-[-6px] translate-y-[-6px] opacity-40 scale-95">
+<span class="material-symbols-outlined text-slate-500 text-6xl">smartphone</span>
+</div>
+<div class="relative z-10 bg-white p-2 rounded-xl shadow-lg border border-slate-100">
+<span class="material-symbols-outlined text-primary text-6xl">smartphone</span>
+</div>
+</div>
+<div class="mt-6 text-center">
+<p class="text-xs font-black text-slate-800 uppercase tracking-tighter">Edge Clients</p>
+<p class="text-[10px] text-text-muted font-bold mt-1">MOBILE_FLEET_NODE</p>
+</div>
+</div>
+<div class="flex-1 flex flex-col items-center justify-center relative px-4">
+<div class="mb-4 px-4 py-1.5 rounded-md bg-slate-800 text-white text-[10px] font-black uppercase tracking-widest shadow-md">
+                            Activation
+                        </div>
+<div class="relative w-full h-1 bg-slate-100 rounded-full flex items-center justify-center">
+<div class="absolute w-full h-full animated-connection rounded-full opacity-60"></div>
+<div class="absolute inset-0 flex items-center justify-between -mx-2">
+<span class="material-symbols-outlined text-primary text-4xl leading-none select-none">chevron_left</span>
+<span class="material-symbols-outlined text-primary text-4xl leading-none select-none">chevron_right</span>
+</div>
+</div>
+<div class="mt-4 px-4 py-1.5 rounded-md bg-slate-800 text-white text-[10px] font-black uppercase tracking-widest shadow-md">
+                            Gradient
+                        </div>
+</div>
+<div class="relative flex flex-col items-center">
+<div class="w-28 h-28 rounded-2xl bg-sage-light border-2 border-sage/50 flex flex-col items-center justify-center shadow-inner">
+<span class="material-symbols-outlined text-primary text-5xl">dns</span>
+<span class="text-xs font-black text-primary mt-2 uppercase tracking-tighter">Cloud</span>
+</div>
+<div class="mt-6 text-center">
+<p class="text-xs font-black text-slate-800 uppercase tracking-tighter">HKU Node</p>
+<p class="text-[10px] text-text-muted font-bold mt-1">SERVER_HUB_PRIMARY</p>
+</div>
+</div>
+</div>
+<div class="mt-12 bg-slate-50/80 p-4 rounded-xl border-l-4 border-primary">
+<p class="text-xs text-text-muted font-medium flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">sync_alt</span>
+                        Bidirectional stream active: Edge devices transmitting activations; HKU Server returning gradients for local weights update.
+                    </p>
+</div>
+</section>
+<section class="bg-surface rounded-3xl p-8 shadow-sm border border-border-light flex-1">
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-sm font-bold text-slate-800 flex items-center gap-3 uppercase tracking-widest">
+<span class="material-symbols-outlined text-primary">public</span>
+                        Active Training Nodes Geographic Distribution
+                    </h3>
+<div class="bg-white px-4 py-2 rounded-xl border border-slate-200 text-xs font-extrabold text-slate-600 shadow-sm flex items-center gap-2">
+<span class="flex h-2 w-2 rounded-full bg-primary"></span>
+                        5 Anonymized Nodes Active
+                    </div>
+</div>
+<div class="relative w-full aspect-[21/9] bg-slate-50 rounded-2xl overflow-hidden border border-slate-100">
+<div class="absolute inset-0 opacity-[0.1]" style="background-image: radial-gradient(circle, #4e7e7c 1.5px, transparent 1.5px); background-size: 24px 24px;"></div>
+<div class="absolute top-[25%] left-[30%] w-4 h-4 bg-primary rounded-full shadow-[0_0_15px_rgba(78,126,124,0.6)] animate-pulse"></div>
+<div class="absolute top-[45%] left-[45%] w-4 h-4 bg-sage rounded-full shadow-[0_0_15px_rgba(168,198,185,0.6)] animate-pulse" style="animation-delay: 0.5s"></div>
+<div class="absolute top-[65%] left-[55%] w-4 h-4 bg-primary rounded-full shadow-[0_0_15px_rgba(78,126,124,0.6)] animate-pulse" style="animation-delay: 1s"></div>
+<div class="absolute top-[40%] left-[75%] w-4 h-4 bg-sage rounded-full shadow-[0_0_15px_rgba(168,198,185,0.6)] animate-pulse" style="animation-delay: 0.2s"></div>
+<div class="absolute top-[70%] left-[25%] w-4 h-4 bg-primary rounded-full shadow-[0_0_15px_rgba(78,126,124,0.6)] animate-pulse" style="animation-delay: 0.8s"></div>
+<div class="absolute bottom-4 left-4 text-[9px] font-mono text-slate-400 uppercase tracking-widest bg-white/50 px-2 py-1 rounded">
+                        COORD_REF: 22.2783° N, 114.1747° E
+                    </div>
+</div>
+</section>
+</div>
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-6">
+<section class="bg-slate-900 rounded-[2.5rem] p-10 shadow-2xl text-white relative overflow-hidden">
+<div class="absolute -top-24 -right-24 w-64 h-64 bg-primary/20 blur-[100px] rounded-full"></div>
+<div class="relative z-10">
+<div class="flex justify-between items-start mb-10">
+<div class="flex flex-col">
+<h2 class="text-xs font-black text-sage uppercase tracking-[0.2em] mb-3">Model Aggregation Engine</h2>
+<div class="flex items-baseline gap-4">
+<span class="text-7xl font-black tracking-tighter italic">61%</span>
+<div class="flex flex-col">
+<span class="text-sm font-bold text-slate-400 uppercase leading-none">Aggregated</span>
+<span class="text-sm font-bold text-emerald-400 uppercase tracking-tighter mt-1">Global Round: 32</span>
+</div>
+</div>
+</div>
+<div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-5 text-right">
+<div class="text-[10px] font-mono text-slate-400 mb-2 uppercase tracking-widest">System Status</div>
+<div class="flex items-center gap-3 justify-end">
+<span class="flex h-3 w-3 rounded-full bg-emerald-500 shadow-[0_0_10px_#10b981]"></span>
+<span class="text-sm font-black text-emerald-400 uppercase tracking-widest">Round 32 - Active</span>
+</div>
+</div>
+</div>
+<div class="w-full h-4 bg-slate-800/50 rounded-full mb-12 overflow-hidden border border-white/5">
+<div class="h-full bg-gradient-to-r from-primary to-sage rounded-full shadow-[0_0_15px_rgba(168,198,185,0.3)]" style="width: 61%"></div>
+</div>
+<div class="space-y-6">
+<div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-[0.15em] pb-3 border-b border-white/5">
+<span>Active Node Identifier</span>
+<span>Transmission Status</span>
+</div>
+<div class="flex items-center justify-between group">
+<div class="flex flex-col gap-2 w-full max-w-[60%]">
+<div class="flex justify-between text-xs font-mono">
+<span class="text-white font-bold">NODE_HK_01</span>
+<span class="text-sage font-black">62%</span>
+</div>
+<div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-emerald-400" style="width: 62%"></div>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-emerald-500/10 text-emerald-400 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-wider border border-emerald-500/20 min-w-[130px] justify-center">
+<span class="material-symbols-outlined text-sm fill-1">check_circle</span>
+                                Completed
+                            </div>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex flex-col gap-2 w-full max-w-[60%]">
+<div class="flex justify-between text-xs font-mono">
+<span class="text-white font-bold">NODE_HK_02</span>
+<span class="text-sage font-black">62%</span>
+</div>
+<div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-emerald-400" style="width: 62%"></div>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-emerald-500/10 text-emerald-400 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-wider border border-emerald-500/20 min-w-[130px] justify-center">
+<span class="material-symbols-outlined text-sm fill-1">check_circle</span>
+                                Completed
+                            </div>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex flex-col gap-2 w-full max-w-[60%]">
+<div class="flex justify-between text-xs font-mono">
+<span class="text-white font-bold">NODE_HK_03</span>
+<span class="text-slate-400 font-black">61%</span>
+</div>
+<div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.3)]" style="width: 61%"></div>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-amber-500/10 text-amber-400 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-wider border border-amber-500/20 min-w-[130px] justify-center">
+<span class="material-symbols-outlined text-sm animate-spin">sync</span>
+                                Processing
+                            </div>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex flex-col gap-2 w-full max-w-[60%]">
+<div class="flex justify-between text-xs font-mono">
+<span class="text-white font-bold">NODE_HK_04</span>
+<span class="text-slate-400 font-black">61%</span>
+</div>
+<div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.3)]" style="width: 61%"></div>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-amber-500/10 text-amber-400 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-wider border border-amber-500/20 min-w-[130px] justify-center">
+<span class="material-symbols-outlined text-sm animate-spin">sync</span>
+                                Processing
+                            </div>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex flex-col gap-2 w-full max-w-[60%]">
+<div class="flex justify-between text-xs font-mono">
+<span class="text-white font-bold">NODE_HK_05</span>
+<span class="text-slate-400 font-black">61%</span>
+</div>
+<div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.3)]" style="width: 61%"></div>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-amber-500/10 text-amber-400 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-wider border border-amber-500/20 min-w-[130px] justify-center">
+<span class="material-symbols-outlined text-sm animate-spin">sync</span>
+                                Processing
+                            </div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<nav class="bg-white border-t border-slate-200 px-12 h-20 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<button class="flex items-center gap-3 text-primary font-bold px-4 py-2 rounded-xl bg-sage-light">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-sm">Network Dashboard</span>
+</button>
+<button class="flex items-center gap-3 text-slate-400 font-bold px-4 py-2 hover:bg-slate-50 transition-colors rounded-xl">
+<span class="material-symbols-outlined">analytics</span>
+<span class="text-sm">Aggregation Metrics</span>
+</button>
+<button class="flex items-center gap-3 text-slate-400 font-bold px-4 py-2 hover:bg-slate-50 transition-colors rounded-xl">
+<span class="material-symbols-outlined">security</span>
+<span class="text-sm">Encryption Logs</span>
+</button>
+</div>
+<div class="flex items-center gap-6 border-l border-slate-200 pl-8">
+<div class="text-right">
+<p class="text-[10px] font-black text-slate-400 uppercase tracking-widest leading-none">Global Hash</p>
+<p class="text-xs font-mono text-slate-600">8f2a...c91e</p>
+</div>
+<button class="w-12 h-12 flex items-center justify-center bg-slate-100 text-slate-600 rounded-xl hover:bg-slate-200 transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+</nav>
+</div>
+
+</body></html>
