@@ -1,16 +1,21 @@
 {
+  "name": "Soul Buffer HKU Server",
   "short_name": "SoulBuffer",
-  "name": "Soul Buffer Cloud Engine",
+  "start_url": "index.html",
+  "display": "standalone", 
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "Desktop UI for HKU Edge Computing Project",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "icon.png",
       "sizes": "192x192",
       "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  ],
-  "start_url": "./index.html",
-  "background_color": "#0d1117",
-  "theme_color": "#0d1117",
-  "display": "fullscreen",
-  "orientation": "landscape"
+  ]
 }
