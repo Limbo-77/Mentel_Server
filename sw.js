@@ -1,3 +1,9 @@
-self.addEventListener('fetch', function(event) {
-    // 这是一个空的 Service Worker，足以骗过浏览器的安装检查
+// sw.js
+self.addEventListener('install', (event) => {
+  self.skipWaiting();
+});
+
+self.addEventListener('fetch', (event) => {
+  // 必须监听 fetch 事件，哪怕不处理任何逻辑
+  event.respondWith(fetch(event.request));
 });
