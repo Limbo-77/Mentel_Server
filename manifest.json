@@ -4,6 +4,7 @@
   "start_url": "./index.html",
   "id": "/soul-buffer-hku/",
   "display": "fullscreen",
+  "orientation": "landscape",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "description": "Desktop UI for HKU Edge Computing Project",
